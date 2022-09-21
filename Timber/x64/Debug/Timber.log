@@ -1,0 +1,13 @@
+﻿  Timber.cpp
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Timber\Timber.cpp(197,46): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Timber\Timber.cpp(214,46): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Timber\Timber.cpp(253,43): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Timber\Timber.cpp(256,30): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Timber\Timber.cpp(276,39): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Timber\Timber.cpp(279,30): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Timber\Timber.cpp(297,39): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Timber\Timber.cpp(300,30): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Timber\Timber.cpp(318,39): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Timber\Timber.cpp(321,30): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Timber\Timber.cpp(342,30): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Timber.vcxproj -> C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Timber\x64\Debug\Timber.exe
