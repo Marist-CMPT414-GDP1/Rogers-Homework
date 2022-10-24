@@ -1,10 +1,11 @@
 #include "bullet.h"
 
+int bulletSize = 2;
 
 // The constructor
 Bullet::Bullet()
 {
-	m_BulletShape.setSize(sf::Vector2f(2, 2));
+	m_BulletShape.setSize(sf::Vector2f(bulletSize, bulletSize));
 }
 
 void Bullet::shoot(float startX, float startY,
@@ -78,6 +79,11 @@ RectangleShape Bullet::getShape()
 	return m_BulletShape;
 }
 
+void Bullet::upgradeSize()
+{
+	bulletSize += 100;
+	m_BulletShape.setSize(sf::Vector2f(bulletSize, bulletSize));
+}
 
 void Bullet::update(float elapsedTime)
 {

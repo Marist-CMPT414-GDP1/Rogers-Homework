@@ -12,6 +12,7 @@ Player::Player()
 	m_Sprite = Sprite(TextureHolder::GetTexture(
 		"graphics/player.png"));
 
+
 	// Set the origin of the sprite to the centre, 
 	// for smooth rotation
 	m_Sprite.setOrigin(25, 25);
@@ -209,4 +210,3 @@ void Player::increaseHealthLevel(int amount)
 		m_Health = m_MaxHealth;
 	}
 }
-

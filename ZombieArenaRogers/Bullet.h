@@ -55,6 +55,8 @@ public:
 	// Return the actual shape (for drawing)
 	RectangleShape getShape();
 
+	void upgradeSize();
+
 	// Update the bullet each frame
 	void update(float elapsedTime);
 
