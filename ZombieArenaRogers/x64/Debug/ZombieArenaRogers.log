@@ -1,0 +1,148 @@
+﻿  Bullet.cpp
+  CreateBackground.cpp
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\CreateBackground.cpp(30,64): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\CreateBackground.cpp(30,49): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\CreateBackground.cpp(31,78): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\CreateBackground.cpp(31,63): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\CreateBackground.cpp(32,92): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\CreateBackground.cpp(32,63): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\CreateBackground.cpp(33,80): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\CreateBackground.cpp(33,50): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\CreateBackground.cpp(52,54): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\CreateBackground.cpp(53,62): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\CreateBackground.cpp(54,70): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\CreateBackground.cpp(55,62): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  CreateHorde.cpp
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\CreateHorde.cpp(25,8): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\CreateHorde.cpp(26,24): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\CreateHorde.cpp(31,8): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\CreateHorde.cpp(32,24): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\CreateHorde.cpp(37,24): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\CreateHorde.cpp(38,8): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\CreateHorde.cpp(43,24): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\CreateHorde.cpp(44,8): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Pickup.cpp
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\Pickup.cpp(30,20): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\Pickup.cpp(31,20): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\Pickup.cpp(59,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\Pickup.cpp(59,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\Pickup.cpp(117,34): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\Pickup.cpp(121,32): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  Player.cpp
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\Player.cpp(7,13): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\Player.cpp(8,16): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\Player.cpp(23,13): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\Player.cpp(24,16): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\Player.cpp(30,29): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\Player.cpp(31,30): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\Player.cpp(163,32): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\Player.cpp(168,31): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\Player.cpp(173,33): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\Player.cpp(178,30): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\Player.cpp(182,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\Player.cpp(192,26): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\Player.cpp(198,31): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  TextureHolder.cpp
+  Zombie.cpp
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\Zombie.cpp(46,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\Zombie.cpp(127,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  ZombieArena.cpp
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\ZombieArena.cpp(26,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\ZombieArena.cpp(27,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\ZombieArena.cpp(29,56): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\ZombieArena.cpp(29,42): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\ZombieArena.cpp(622,50): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Generating Code...
+  ZombieArenaRogers.vcxproj -> C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\x64\Debug\ZombieArenaRogers.exe
