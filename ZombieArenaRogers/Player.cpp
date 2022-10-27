@@ -6,6 +6,7 @@ Player::Player()
 	m_Speed = START_SPEED;
 	m_Health = START_HEALTH;
 	m_MaxHealth = START_HEALTH;
+	bool Revive = false;
 
 	// Associate a texture with the sprite
 	// !!Watch this space!!
@@ -89,6 +90,21 @@ Sprite Player::getSprite()
 int Player::getHealth()
 {
 	return m_Health;
+}
+
+bool Player::hasRevive()
+{
+	return Revive;
+}
+
+void Player::addRevive()
+{
+	Revive = true;
+}
+
+void Player::removeRevive()
+{
+	Revive = false;
 }
 
 void Player::moveLeft()

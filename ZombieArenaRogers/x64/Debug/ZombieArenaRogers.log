@@ -19,7 +19,7 @@ C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\ZombieArena
           [
               T=float
           ]
-C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\ZombieArena.cpp(622,50): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\ZombieArenaRogers\ZombieArena.cpp(638,50): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float

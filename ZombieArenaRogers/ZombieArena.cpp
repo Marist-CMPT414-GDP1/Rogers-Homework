@@ -132,7 +132,8 @@ int main()
 		"\n3- Increased max health" <<
 		"\n4- Increased run speed" <<
 		"\n5- More and better health pickups" <<
-		"\n6- More and better ammo pickups";
+		"\n6- More and better ammo pickups" <<
+		"\n7- Revive once on death with half health";
 	levelUpText.setString(levelUpStream.str());
 
 	// Ammo
@@ -438,15 +439,24 @@ int main()
 				state = State::PLAYING;
 			}
 
+			if (event.key.code == Keyboard::Num7)
+			{
+				player.addRevive();
+				state = State::PLAYING;
+			}
+
 			if (state == State::PLAYING)
 			{
 				// Increase the wave number
 				wave++;
 
+				int random1 = rand() % 300 + 400;
+				int random2 = rand() % 300 + 400;
+
 				// Prepare thelevel
 				// We will modify the next two lines later
-				arena.width = 500 * wave;
-				arena.height = 500 * wave;
+				arena.width = random1 * wave;
+				arena.height = random2 * wave;
 				arena.left = 0;
 				arena.top = 0;
 
@@ -588,12 +598,18 @@ int main()
 
 					if (player.getHealth() <= 0)
 					{
-						state = State::GAME_OVER;
+						if (player.hasRevive() == true)
+						{
+							player.increaseHealthLevel(healthPickup.gotIt());
+							player.removeRevive();
+						}
+						else {
+							state = State::GAME_OVER;
 
-						std::ofstream outputFile("gamedata/scores.txt");
-						outputFile << hiScore;
-						outputFile.close();
-						
+							std::ofstream outputFile("gamedata/scores.txt");
+							outputFile << hiScore;
+							outputFile.close();
+						}
 					}
 				}
 			}// End player touched

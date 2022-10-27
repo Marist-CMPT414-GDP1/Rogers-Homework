@@ -9,6 +9,8 @@ private:
 	const float START_SPEED = 200;
 	const float START_HEALTH = 100;
 
+	bool Revive = false;
+
 	// Where is the player
 	Vector2f m_Position;
 
@@ -77,6 +79,8 @@ public:
 	// How much health has the player currently got?
 	int getHealth();
 
+	bool hasRevive();
+
 	// The next four functions move the player
 	void moveLeft();
 
@@ -103,6 +107,10 @@ public:
 
 	// Give the player some health
 	void upgradeHealth();
+
+	void addRevive();
+
+	void removeRevive();
 
 	// Increase the maximum amount of health the player can have
 	void increaseHealthLevel(int amount);
