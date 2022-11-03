@@ -30,16 +30,20 @@ void Ball::reboundSides()
 	m_DirectionX = -m_DirectionX;
 }
 
-void Ball::reboundBatOrTop()
+void Ball::reboundTop()
 {
 	m_DirectionY = -m_DirectionY;
+}
+
+void Ball::reboundBat()
+{
+	m_DirectionX = -m_DirectionX;
+	m_Speed += 50.0f;
 
 }
 
 void Ball::reboundBottom()
 {
-	m_Position.y = 0;
-	m_Position.x = 500;
 	m_DirectionY = -m_DirectionY;
 }
 

@@ -67,11 +67,11 @@ void Bat::stopRight()
 
 void Bat::update(Time dt)
 {
-	if (m_MovingUp) {
+	if (m_MovingUp && m_Position.y > 50) {
 		m_Position.y -= m_Speed * dt.asSeconds();
 	}
 
-	if (m_MovingDown) {
+	if (m_MovingDown && m_Position.y < 1030) {
 		m_Position.y += m_Speed * dt.asSeconds();
 	}
 

@@ -22,17 +22,17 @@ int main()
 	int lives = 3;
 
 	// Create a bat
-	Bat bat(1920 / 10, 1080 - 20);
+	Bat bat(1920 / 10, 1080 / 2);
 
 	// We will add a ball in the next chapter
-	Ball ball(1920 / 2, 0);
+	Ball ball(1920 / 2, 1080 / 2);
 
 	// Create a Text object called HUD
 	Text hud;
 
 	// A cool retro-style font
 	Font font;
-	font.loadFromFile("fonts/DS-DIGI.ttf");
+	font.loadFromFile("fonts/ARIBL0.ttf");
 
 	// Set the font to our retro-style
 	hud.setFont(font);
@@ -43,7 +43,7 @@ int main()
 	// Choose a color
 	hud.setFillColor(Color::White);
 
-	hud.setPosition(20, 20);
+	hud.setPosition(1920/3.5, 20);
 
 	// Here is our clock for timing everything
 	Clock clock;
@@ -125,7 +125,7 @@ int main()
 
 
 		// Handle ball hitting the bottom
-		if (ball.getPosition().top > window.getSize().y)
+		if (ball.getPosition().top > window.getSize().y - 50)
 		{
 			// reverse the ball direction
 			ball.reboundBottom();
@@ -144,18 +144,15 @@ int main()
 		}
 
 		// Handle ball hitting top
-		if (ball.getPosition().top < 0)
+		if (ball.getPosition().top < 50)
 		{
-			ball.reboundBatOrTop();
-
-			// Add a point to the players score
-			score++;
+			ball.reboundTop();
 
 		}
 
 		// Handle ball hitting sides
-		if (ball.getPosition().left < 0 ||
-			ball.getPosition().left + 10 > window.getSize().x)
+		if (ball.getPosition().left < 50 ||
+			ball.getPosition().left > window.getSize().x-50)
 		{
 			ball.reboundSides();
 		}
@@ -164,7 +161,7 @@ int main()
 		if (ball.getPosition().intersects(bat.getPosition()))
 		{
 			// Hit detected so reverse the ball and score a point
-			ball.reboundBatOrTop();
+			ball.reboundBat();
 		}
 		/*
 		Draw the bat, the ball and the HUD

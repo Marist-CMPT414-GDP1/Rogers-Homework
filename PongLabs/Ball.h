@@ -24,7 +24,9 @@ public:
 
 	void reboundSides();
 
-	void reboundBatOrTop();
+	void reboundBat();
+
+	void reboundTop();
 
 	void reboundBottom();
 

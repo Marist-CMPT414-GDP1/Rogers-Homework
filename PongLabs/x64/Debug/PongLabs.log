@@ -1,2 +1,3 @@
-﻿  Bat.cpp
+﻿  PongLabs.cpp
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\PongLabs\PongLabs.cpp(46,30): warning C4305: 'argument': truncation from 'double' to 'float'
   PongLabs.vcxproj -> C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\PongLabs\x64\Debug\PongLabs.exe
