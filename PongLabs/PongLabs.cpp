@@ -25,7 +25,7 @@ int main()
 	Bat bat(1920 / 10, 1080 / 2);
 
 	// We will add a ball in the next chapter
-	Ball ball(1920 / 2, 1080 / 2);
+	Ball ball(1920 / 3, 1080 / 3);
 
 	// Create a Text object called HUD
 	Text hud;
@@ -129,6 +129,12 @@ int main()
 		{
 			// reverse the ball direction
 			ball.reboundBottom();
+		}
+
+		if (ball.getPosition().left < 100)
+		{
+			// reverse the ball direction
+			ball.reboundSides();
 
 			// Remove a life
 			lives--;
@@ -162,6 +168,7 @@ int main()
 		{
 			// Hit detected so reverse the ball and score a point
 			ball.reboundBat();
+			score++;
 		}
 		/*
 		Draw the bat, the ball and the HUD

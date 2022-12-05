@@ -1,0 +1,7 @@
+﻿  HUD.cpp
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\HUD.cpp(32,38): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  Rogers-Game03.vcxproj -> C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\x64\Debug\Rogers-Game03.exe
