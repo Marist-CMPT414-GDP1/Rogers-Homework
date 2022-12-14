@@ -15,6 +15,7 @@ protected:
 	// Is character currently jumping or falling
 	bool m_IsJumping;
 	bool m_IsFalling;
+	bool m_doubleJump = false;
 
 	// Which directions is the character currently moving in
 	bool m_LeftPressed;

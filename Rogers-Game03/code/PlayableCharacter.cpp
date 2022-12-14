@@ -132,6 +132,7 @@ void PlayableCharacter::stopFalling(float position)
 	m_Position.y = position - getPosition().height;
 	m_Sprite.setPosition(m_Position);
 	m_IsFalling = false;
+	m_doubleJump = false;
 }
 
 void PlayableCharacter::stopRight(float position)

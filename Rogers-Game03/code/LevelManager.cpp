@@ -53,7 +53,33 @@ int** LevelManager::nextLevel(VertexArray& rVaLevel)
 		m_BaseTimeLimit = 50.0f;
 		break;
 
+	case 5:
+		levelToLoad = "levels/level5.txt";
+		m_StartPosition.x = 50;
+		m_StartPosition.y = 200;
+		m_BaseTimeLimit = 50.0f;
+		break;
+
+	case 6:
+		levelToLoad = "levels/level6.txt";
+		m_StartPosition.x = 50;
+		m_StartPosition.y = 200;
+		m_BaseTimeLimit = 50.0f;
+		break;
+
+	case 7:
+		levelToLoad = "levels/level7.txt";
+		m_StartPosition.x = 50;
+		m_StartPosition.y = 200;
+		m_BaseTimeLimit = 50.0f;
+		break;
 	
+	case 8:
+		levelToLoad = "levels/level8.txt";
+		m_StartPosition.x = 50;
+		m_StartPosition.y = 200;
+		m_BaseTimeLimit = 50.0f;
+		break;
 	}
 
 	ifstream inputFile(levelToLoad);

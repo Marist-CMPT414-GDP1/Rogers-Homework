@@ -1,5 +1,7 @@
 #include "Engine.h"
 
+bool openDoor = false;
+
 bool Engine::detectCollisions(PlayableCharacter& character)
 {
 	bool reachedGoal = false;
@@ -67,7 +69,40 @@ bool Engine::detectCollisions(PlayableCharacter& character)
 				}
 			}
 
+			if (m_ArrayLevel[y][x] == 5)
+			{
+				if (character.getFeet().intersects(block))
+				{
+					openDoor = true;
+				}
+			}
 
+			if (openDoor == false)
+			{
+				if (m_ArrayLevel[y][x] == 6)
+				{
+					if (character.getRight().intersects(block))
+					{
+						character.stopRight(block.left);
+					}
+					else if (character.getLeft().intersects(block))
+					{
+						character.stopLeft(block.left);
+					}
+					if (character.getFeet().intersects(block))
+					{
+						character.stopFalling(block.top);
+					}
+					else if (character.getHead().intersects(block))
+					{
+						character.stopJump();
+					}
+				}
+			}
+			else
+			{
+				openDoor = true;
+			}
 			// Is character colliding with a regular block
 			if (m_ArrayLevel[y][x] == 1)
 			{
@@ -112,8 +147,13 @@ bool Engine::detectCollisions(PlayableCharacter& character)
 			// Has the character reached the goal?
 			if (m_ArrayLevel[y][x] == 4)
 			{
-				// Character has reached the goal
+				openDoor = false;
 				reachedGoal = true;
+			}
+
+			if (m_ArrayLevel[y][x] == 5)
+			{
+				openDoor = true;
 			}
 
 		}

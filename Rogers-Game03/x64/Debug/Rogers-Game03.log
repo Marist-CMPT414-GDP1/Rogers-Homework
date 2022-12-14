@@ -1,7 +1,191 @@
-﻿  HUD.cpp
-C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\HUD.cpp(32,38): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+﻿  DetectCollisions.cpp
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\DetectCollisions.cpp(14,16): warning C4244: '=': conversion from 'const int' to 'T', possible loss of data
           with
           [
-              T=unsigned int
+              T=float
           ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\DetectCollisions.cpp(15,17): warning C4244: '=': conversion from 'const int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\DetectCollisions.cpp(35,81): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\DetectCollisions.cpp(35,46): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\DetectCollisions.cpp(39,44): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\DetectCollisions.cpp(47,19): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\DetectCollisions.cpp(48,18): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\DetectCollisions.cpp(56,47): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+  Draw.cpp
+  Engine.cpp
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\Engine.cpp(8,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\Engine.cpp(9,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\Engine.cpp(11,52): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\Engine.cpp(11,38): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Input.cpp
+  LevelManager.cpp
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\LevelManager.cpp(82,28): warning C4267: '=': conversion from 'size_t' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\LevelManager.cpp(128,31): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\LevelManager.cpp(128,16): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\LevelManager.cpp(131,45): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\LevelManager.cpp(131,30): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\LevelManager.cpp(134,59): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\LevelManager.cpp(134,30): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\LevelManager.cpp(137,47): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\LevelManager.cpp(137,17): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\LevelManager.cpp(143,19): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\LevelManager.cpp(146,27): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\LevelManager.cpp(146,14): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\LevelManager.cpp(149,35): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\LevelManager.cpp(149,14): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\LevelManager.cpp(152,27): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  LoadLevel.cpp
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\LoadLevel.cpp(26,42): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\LoadLevel.cpp(27,39): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+  Main.cpp
+  PopulateEmitters.cpp
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\PopulateEmitters.cpp(11,22): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\PopulateEmitters.cpp(29,6): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\PopulateEmitters.cpp(28,6): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\PopulateEmitters.cpp(27,8): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\PopulateEmitters.cpp(26,22): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\PopulateEmitters.cpp(33,33): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\PopulateEmitters.cpp(33,18): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\PopulateEmitters.cpp(38,31): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\PopulateEmitters.cpp(39,30): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\PopulateEmitters.cpp(40,40): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\code\PopulateEmitters.cpp(41,41): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Update.cpp
+  Generating Code...
   Rogers-Game03.vcxproj -> C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game03\x64\Debug\Rogers-Game03.exe
