@@ -12,6 +12,7 @@ private:
 	SoundBuffer m_FallInWaterBuffer;
 	SoundBuffer m_JumpBuffer;
 	SoundBuffer m_ReachGoalBuffer;
+	SoundBuffer m_DoorUnlocked;
 
 	// The Sounds
 	Sound m_Fire1Sound;
@@ -21,6 +22,7 @@ private:
 	Sound m_FallInWaterSound;
 	Sound m_JumpSound;
 	Sound m_ReachGoalSound;
+	Sound m_UnlockSound;
 
 	// Which sound should we use next, fire 1, 2 or 3
 	int m_NextSound = 1;
@@ -33,6 +35,7 @@ public:
 	void playFallInFire();
 	void playFallInWater();
 	void playJump();
+	void playUnlock();
 	void playReachGoal();
 };
 

@@ -154,6 +154,7 @@ bool Engine::detectCollisions(PlayableCharacter& character)
 			if (m_ArrayLevel[y][x] == 5)
 			{
 				openDoor = true;
+				m_SM.playUnlock();
 			}
 
 		}

@@ -11,6 +11,7 @@ SoundManager::SoundManager()
 	m_FallInWaterBuffer.loadFromFile("sound/fallinwater.wav");
 	m_JumpBuffer.loadFromFile("sound/jump.wav");
 	m_ReachGoalBuffer.loadFromFile("sound/reachgoal.wav");
+	m_DoorUnlocked.loadFromFile("sound/door-unlock.wav");
 
 	// Associate the sounds with the buffers
 	m_Fire1Sound.setBuffer(m_FireBuffer);
@@ -20,6 +21,7 @@ SoundManager::SoundManager()
 	m_FallInWaterSound.setBuffer(m_FallInWaterBuffer);
 	m_JumpSound.setBuffer(m_JumpBuffer);
 	m_ReachGoalSound.setBuffer(m_ReachGoalBuffer);
+	m_UnlockSound.setBuffer(m_DoorUnlocked);
 
 	// When the player is 50 pixels away sound is full volume
 	float minDistance = 150;
@@ -108,6 +110,12 @@ void SoundManager::playJump()
 {
 	m_JumpSound.setRelativeToListener(true);
 	m_JumpSound.play();
+}
+
+void SoundManager::playUnlock()
+{
+	m_UnlockSound.setRelativeToListener(true);
+	m_UnlockSound.play();
 }
 
 void SoundManager::playReachGoal()
