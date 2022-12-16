@@ -32,7 +32,10 @@ public:
 
 	void setActive();
 	void setInactive();
+	void hurt();
+	int getHealth();
 	bool isActive();
+	int health = 3;
 	void setTag(String tag);
 	string getTag();
 

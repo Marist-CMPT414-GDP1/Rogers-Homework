@@ -109,6 +109,16 @@ bool GameObject::isActive()
 	return m_Active;
 }
 
+void GameObject::hurt()
+{
+	health--;
+}
+
+int GameObject::getHealth()
+{
+	return health;
+}
+
 void GameObject::setTag(String tag)
 {
 	m_Tag = "" + tag;

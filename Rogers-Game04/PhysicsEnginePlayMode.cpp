@@ -40,6 +40,7 @@ detectInvaderCollisions(
 					.intersects((*bulletIt)
 						.getEncompassingRectCollider())
 					&& (*bulletIt).getTag() == "bullet"
+					&& ((*invaderIt).getTag() == "invader" || (*invaderIt).getTag() == "mothership")
 					&& static_pointer_cast<BulletUpdateComponent>(
 					(*bulletIt).getFirstUpdateComponent())
 					->m_BelongsToPlayer)
@@ -64,13 +65,18 @@ detectInvaderCollisions(
 					&& (*invaderIt).isActive() == true)
 				{
 					SoundEngine::playInvaderExplode();
-					(*invaderIt).getTransformComponent()
-						->getLocation() = offScreen;
 
 					(*bulletIt).getTransformComponent()
 						->getLocation() = offScreen;
 
-					(*invaderIt).setInactive();
+					(*invaderIt).hurt();
+
+					if ((*invaderIt).getHealth() <= 0)
+					{
+						(*invaderIt).setInactive();
+						(*invaderIt).getTransformComponent()
+							->getLocation() = offScreen;
+					}
 				}
 			}
 		}
