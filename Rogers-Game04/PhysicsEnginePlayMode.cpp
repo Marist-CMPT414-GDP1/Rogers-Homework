@@ -4,6 +4,7 @@
 #include "SoundEngine.h"
 #include "WorldState.h"
 #include "InvaderUpdateComponent.h"
+#include "MothershipUpdateComponent.h"
 #include "BulletUpdateComponent.h"
 
 void PhysicsEnginePlayMode::
@@ -20,7 +21,7 @@ detectInvaderCollisions(
 		++invaderIt)
 	{
 		if ((*invaderIt).isActive()
-			&& (*invaderIt).getTag() == "invader")
+			&& (*invaderIt).getTag() == "invader" || (*invaderIt).getTag() == "mothership")
 		{
 			auto bulletIt = objects.begin();
 			// Jump to the first bullet
@@ -165,6 +166,54 @@ detectPlayerCollisionsAndInvaderDirection(
 					{
 						// Drop down and reverse
 						static_pointer_cast<InvaderUpdateComponent>(
+							(*it3).getFirstUpdateComponent())
+							->dropDownAndReverse();
+					}
+				}
+			}
+			else if (currentTag == "mothership")
+			{
+				// This is an invader
+				if (!m_NeedToDropDownAndReverse &&
+					!m_InvaderHitWallThisFrame)
+				{
+					// Currently no need to dropdown 
+					// and reverse from previous frame 
+					// or any hits this frame
+					if (currentLocation.x >=
+						WorldState::WORLD_WIDTH - currentSize.x)
+					{
+						// The invader is passed its furthest right position
+						if (static_pointer_cast
+							<MothershipUpdateComponent>((*it3)
+								.getFirstUpdateComponent())->
+							isMovingRight())
+						{
+							// The invader is travelling right so set 
+							// a flag that an invader has collided 
+							m_InvaderHitWallThisFrame = true;
+						}
+					}
+					else if (currentLocation.x < 0)
+					{
+						// The invader is past its furthest left position
+						if (!static_pointer_cast<MothershipUpdateComponent>(
+							(*it3).getFirstUpdateComponent())->isMovingRight())
+						{
+							// The invader is travelling left so 
+							// set a flag that an invader has collided 
+							m_InvaderHitWallThisFrame = true;
+						}
+					}
+				}
+				else if (m_NeedToDropDownAndReverse
+					&& !m_InvaderHitWallPreviousFrame)
+				{
+					// Drop down and reverse has been set
+					if ((*it3).hasUpdateComponent())
+					{
+						// Drop down and reverse
+						static_pointer_cast<MothershipUpdateComponent>(
 							(*it3).getFirstUpdateComponent())
 							->dropDownAndReverse();
 					}

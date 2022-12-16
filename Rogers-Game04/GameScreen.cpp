@@ -6,6 +6,7 @@
 #include "GameObject.h"
 #include "BulletUpdateComponent.h"
 #include "InvaderUpdateComponent.h"
+#include "MothershipUpdateComponent.h"
 
 class BulletSpawner;
 
@@ -74,6 +75,15 @@ void GameScreen::initialise()
 		if ((*it).getTag() == "invader")
 		{
 			static_pointer_cast<InvaderUpdateComponent>(
+				(*it).getFirstUpdateComponent())->
+				initializeBulletSpawner(
+					getBulletSpawner(), i);
+
+			WorldState::NUM_INVADERS++;
+		}
+		if ((*it).getTag() == "mothership")
+		{
+			static_pointer_cast<MothershipUpdateComponent>(
 				(*it).getFirstUpdateComponent())->
 				initializeBulletSpawner(
 					getBulletSpawner(), i);

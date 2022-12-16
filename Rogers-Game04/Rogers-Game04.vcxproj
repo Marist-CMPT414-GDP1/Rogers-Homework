@@ -152,6 +152,7 @@
     <ClCompile Include="InputHandler.cpp" />
     <ClCompile Include="InvaderUpdateComponent.cpp" />
     <ClCompile Include="LevelManager.cpp" />
+    <ClCompile Include="MothershipUpdateComponent.cpp" />
     <ClCompile Include="ObjectTags.cpp" />
     <ClCompile Include="PhysicsEnginePlayMode.cpp" />
     <ClCompile Include="PlayerUpdateComponent.cpp" />
@@ -193,6 +194,7 @@
     <ClInclude Include="InputHandler.h" />
     <ClInclude Include="InvaderUpdateComponent.h" />
     <ClInclude Include="LevelManager.h" />
+    <ClInclude Include="MothershipUpdateComponent.h" />
     <ClInclude Include="ObjectTags.h" />
     <ClInclude Include="PhysicsEnginePlayMode.h" />
     <ClInclude Include="PlayerUpdateComponent.h" />

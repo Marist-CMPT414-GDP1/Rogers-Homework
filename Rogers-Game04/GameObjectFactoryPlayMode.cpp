@@ -5,6 +5,7 @@
 #include "PlayerUpdateComponent.h"
 #include "RectColliderComponent.h"
 #include "InvaderUpdateComponent.h"
+#include "MothershipUpdateComponent.h"
 #include "BulletUpdateComponent.h"
 
 void GameObjectFactoryPlayMode::buildGameObject(
@@ -36,6 +37,11 @@ void GameObjectFactoryPlayMode::buildGameObject(
 		{
 			gameObject.addComponent(make_shared
 				<InvaderUpdateComponent>());
+		}
+		else if (*it == "Mothership Update")
+		{
+			gameObject.addComponent(make_shared
+				<MothershipUpdateComponent>());
 		}
 		else if (*it == "Bullet Update")
 		{

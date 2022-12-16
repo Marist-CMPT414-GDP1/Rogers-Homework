@@ -1,2 +1,4 @@
-﻿  PlayerUpdateComponent.cpp
+﻿  PhysicsEnginePlayMode.cpp
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game04\InvaderUpdateComponent.h(27,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game04\MothershipUpdateComponent.h(27,24): warning C4305: 'initializing': truncation from 'double' to 'float'
   Rogers-Game04.vcxproj -> C:\Users\thecj\Documents\Rogers-HW\Rogers-Homework\Rogers-Game04\x64\Debug\Rogers-Game04.exe
