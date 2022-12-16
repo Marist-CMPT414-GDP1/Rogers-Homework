@@ -155,6 +155,7 @@ bool Engine::detectCollisions(PlayableCharacter& character)
 			{
 				openDoor = true;
 				m_SM.playUnlock();
+				m_PS.emitParticles(character.getCenter());
 			}
 
 		}
