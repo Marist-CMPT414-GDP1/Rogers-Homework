@@ -16,12 +16,16 @@ detectInvaderCollisions(
 
 	auto invaderIt = objects.begin();
 	auto invaderEnd = objects.end();
+
+	auto barrierIt = objects.begin();
+	auto barrierEnd = objects.end();
+
 	for (invaderIt;
 		invaderIt != invaderEnd;
 		++invaderIt)
 	{
 		if ((*invaderIt).isActive()
-			&& (*invaderIt).getTag() == "invader" || (*invaderIt).getTag() == "mothership")
+			&& (*invaderIt).getTag() == "invader" || (*invaderIt).getTag() == "mothership" || (*invaderIt).getTag() == "barrier")
 		{
 			auto bulletIt = objects.begin();
 			// Jump to the first bullet
@@ -49,6 +53,23 @@ detectInvaderCollisions(
 
 					WorldState::SCORE++;
 					WorldState::NUM_INVADERS--;
+					(*invaderIt).setInactive();
+				}
+
+				if ((*invaderIt).getEncompassingRectCollider()
+					.intersects((*bulletIt)
+						.getEncompassingRectCollider())
+					&& (*bulletIt).getTag() == "bullet"
+					&& (*invaderIt).getTag() == "barrier"
+					&& (*invaderIt).isActive() == true)
+				{
+					SoundEngine::playInvaderExplode();
+					(*invaderIt).getTransformComponent()
+						->getLocation() = offScreen;
+
+					(*bulletIt).getTransformComponent()
+						->getLocation() = offScreen;
+
 					(*invaderIt).setInactive();
 				}
 			}
