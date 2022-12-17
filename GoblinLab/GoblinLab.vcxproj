@@ -132,7 +132,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GoblinBruiser.cpp" />
+    <ClCompile Include="GoblinClass.cpp" />
+    <ClCompile Include="GoblinGrunt.cpp" />
     <ClCompile Include="GoblinLab.cpp" />
+    <ClCompile Include="GoblinMage.cpp" />
+    <ClCompile Include="GoblinThief.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
